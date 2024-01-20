@@ -1,0 +1,101 @@
+.first-options {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  height: 880px;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.options-title {
+  width: 120px;
+  height: auto;
+}
+.options {
+  display: flex;
+  width: 600px;
+  height: 130px;
+  gap: 40px;
+  justify-content: center;
+}
+.years-2023 {
+  width: 240px;
+  height: 128px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: center / cover url("../img/2023.png") no-repeat;
+}
+.years-2023:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.years-2023:active {
+  transform: scale(0.98);
+}
+.years-2024 {
+  width: 240px;
+  height: 128px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: center / cover url("../img/2024.png") no-repeat;
+}
+.years-2024:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.years-2024:active {
+  transform: scale(0.98);
+}
+.years-x {
+  width: 240px;
+  height: 128px;
+  transition: all 0.3s;
+}
+@media (max-width: 1080px) {
+  .first-options {
+    max-width: 1080px;
+    height: 640px;
+    gap: 40px;
+  }
+  .options-title {
+    width: 100px;
+    height: auto;
+  }
+  .options {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 520px) {
+  .first-options {
+    max-width: 520px;
+    height: 640px;
+    gap: 40px;
+  }
+  .options-title {
+    width: 90px;
+    height: auto;
+  }
+  .options {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .years {
+    width: 240px;
+    height: 128px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+}
