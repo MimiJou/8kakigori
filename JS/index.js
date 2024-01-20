@@ -1,6 +1,6 @@
 AOS.init();
 document.querySelector(".nav-list").addEventListener("click", function (e) {
-  e.preventDefault();
+  // e.preventDefault();
 
   // Matching strategy
   if (e.target.classList.contains("nav-link")) {
