@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 200;
 }
 .frame {
@@ -55,7 +55,7 @@
   background-color: #000;
   background-position: center;
   background-size: cover;
-  background-image: url("../img/規則1.jpg");
+  background-image: url("../img/規則1.webp");
   animation: image 20s infinite alternate;
   animation-delay: 2s;
   z-index: 200;
@@ -63,26 +63,26 @@
 @keyframes image {
   0%,
   10% {
-    background-image: url("../img/規則1.jpg");
+    background-image: url("../img/規則1.webp");
   }
   20%,
   30% {
-    background-image: url("../img/規則2.jpg");
+    background-image: url("../img/規則2.webp");
   }
   40%,
   50% {
-    background-image: url("../img/規則3.jpg");
+    background-image: url("../img/規則3.webp");
   }
   60%,
   70% {
-    background-image: url("../img/規則4.jpg");
+    background-image: url("../img/規則4.webp");
   }
   80%,
   90% {
-    background-image: url("../img/規則5.jpg");
+    background-image: url("../img/規則5.webp");
   }
   100% {
-    background-image: url("../img/規則6.jpg");
+    background-image: url("../img/規則6.webp");
   }
 }
 .rule-backround {
@@ -91,7 +91,7 @@
   position: absolute;
   left: 650px;
   top: 420px;
-  background-image: url("../img/空間-背景.png");
+  background-image: url("../img/空間-背景.webp");
   z-index: 0;
 }
 @media (max-width: 1600px) {
@@ -171,7 +171,7 @@
     width: 400px;
     height: 580px;
     align-items: center;
-    background: center / cover url("../img/規則-背景.png") no-repeat;
+    background: center / cover url("../img/規則-背景.webp") no-repeat;
   }
   .rule-img-box {
     display: none;

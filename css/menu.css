@@ -96,7 +96,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 100;
   position: relative;
 }
@@ -106,27 +106,27 @@
   background-color: #000;
   background-position: center;
   background-size: cover;
-  background-image: url("../img/冰-1.png");
+  background-image: url("../img/冰-1.webp");
   animation: ice-image 20s infinite alternate;
-  animation-delay: 4s;
+  animation-delay: 2s;
   z-index: 100;
 }
 @keyframes ice-image {
   0%,
   25% {
-    background-image: url("../img/冰-1.png");
+    background-image: url("../img/冰-1.webp");
   }
   25%,
   50% {
-    background-image: url("../img/冰-2.png");
+    background-image: url("../img/冰-2.webp");
   }
   50%,
   75% {
-    background-image: url("../img/冰-3.png");
+    background-image: url("../img/冰-3.webp");
   }
   75%,
   100% {
-    background-image: url("../img/冰-4.png");
+    background-image: url("../img/冰-4.webp");
   }
 }
 .ice-backround {
@@ -352,7 +352,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 100;
 }
 .cake-frame {
@@ -361,7 +361,7 @@
   background-color: #000;
   background-position: center;
   background-size: cover;
-  background-image: url("../img/蛋糕-1.png");
+  background-image: url("../img/蛋糕-1.webp");
   animation: cake-image 10s infinite alternate;
   animation-delay: 2s;
   z-index: 100;
@@ -369,13 +369,13 @@
 @keyframes cake-image {
   0%,
   10% {
-    background-image: url("../img/蛋糕-1.png");
+    background-image: url("../img/蛋糕-1.webp");
   }
   50% {
-    background-image: url("../img/蛋糕-2.png");
+    background-image: url("../img/蛋糕-2.webp");
   }
   100% {
-    background-image: url("../img/蛋糕-3.png");
+    background-image: url("../img/蛋糕-3.webp");
   }
 }
 .cake-decorate {
@@ -589,7 +589,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 100;
 }
 .drink-img-border-1 img {
@@ -605,7 +605,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 100;
   position: absolute;
   top: 440px;

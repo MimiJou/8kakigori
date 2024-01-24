@@ -45,7 +45,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 200;
   position: relative;
 }
@@ -55,7 +55,7 @@
   background-color: #000;
   background-position: center;
   background-size: cover;
-  background-image: url("../img/空間-圖1.png");
+  background-image: url("../img/空間-圖1.webp");
   animation: space-image 20s infinite alternate;
   animation-delay: 2s;
   z-index: 200;
@@ -63,19 +63,19 @@
 @keyframes space-image {
   0%,
   25% {
-    background-image: url("../img/空間-圖1.png");
+    background-image: url("../img/空間-圖1.webp");
   }
   25%,
   50% {
-    background-image: url("../img/空間-圖2.png");
+    background-image: url("../img/空間-圖2.webp");
   }
   50%,
   75% {
-    background-image: url("../img/空間-圖3.png");
+    background-image: url("../img/空間-圖3.webp");
   }
   75%,
   100% {
-    background-image: url("../img/空間-圖4.png");
+    background-image: url("../img/空間-圖4.webp");
   }
 }
 .space-backround {

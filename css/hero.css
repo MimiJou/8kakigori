@@ -9,9 +9,6 @@
   position: relative;
   flex-direction: column;
 }
-.hero-img-boder-2 {
-  display: none;
-}
 .hero-img-boder {
   display: flex;
   background-color: #000;
@@ -23,7 +20,7 @@
   margin-top: -100px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/首頁-底圖.jpg") no-repeat;
+  background: center / cover url("../img/雜訊30.webp") no-repeat;
 }
 .hero-img-boder img {
   width: 1280px;
@@ -97,7 +94,7 @@
     margin-top: 40px;
     justify-content: center;
     align-items: center;
-    background: center / cover url("../img/首頁-底圖.jpg") no-repeat;
+    background: center / cover url("../img/雜訊30.webp") no-repeat;
   }
   .hero-img-boder-phone img {
     display: block;

@@ -82,7 +82,7 @@
   border-color: #c3bbae;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   z-index: 100;
 }
 .about-img-border img {
@@ -100,7 +100,7 @@
   border-color: #c3bbae;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.png") no-repeat;
+  background: center / cover url("../img/底圖.webp") no-repeat;
   position: absolute;
   top: 280px;
   left: 200px;

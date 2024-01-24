@@ -48,11 +48,6 @@
 .years-2024:active {
   transform: scale(0.98);
 }
-.years-x {
-  width: 240px;
-  height: 128px;
-  transition: all 0.3s;
-}
 @media (max-width: 1080px) {
   .first-options {
     max-width: 1080px;
