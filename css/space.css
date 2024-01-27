@@ -194,7 +194,7 @@
     background-color: #000;
     background-position: center;
     background-size: cover;
-    background-image: url("../img/規則1.jpg");
+    background-image: url("../img/規則1.webp");
     animation: image 20s infinite alternate;
     animation-delay: 2s;
     z-index: 200;
@@ -205,26 +205,26 @@
   @keyframes space-image {
     0%,
     10% {
-      background-image: url("../img/規則1.jpg");
+      background-image: url("../img/規則1.webp");
     }
     20%,
     30% {
-      background-image: url("../img/規則2.jpg");
+      background-image: url("../img/規則2.webp");
     }
     40%,
     50% {
-      background-image: url("../img/規則3.jpg");
+      background-image: url("../img/規則3.webp");
     }
     60%,
     70% {
-      background-image: url("../img/規則4.jpg");
+      background-image: url("../img/規則4.webp");
     }
     80%,
     90% {
-      background-image: url("../img/規則5.jpg");
+      background-image: url("../img/規則5.webp");
     }
     100% {
-      background-image: url("../img/規則6.jpg");
+      background-image: url("../img/規則6.webp");
     }
   }
 }
@@ -259,7 +259,7 @@
     background-color: #000;
     background-position: center;
     background-size: cover;
-    background-image: url("../img/規則1.jpg");
+    background-image: url("../img/規則1.webp");
     animation: image 20s infinite alternate;
     animation-delay: 2s;
     z-index: 200;
