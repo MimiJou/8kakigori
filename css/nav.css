@@ -154,12 +154,30 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.2s;
+  flex-direction: column;
+  gap: 10px;
   background-color: #faf9f7;
 }
 .nav-list-btn :active {
   transition: all 0.2s;
-  transform: translateY(-5px);
 }
+.hr-phone {
+  width: 28px;
+  height: 1px;
+  background-color: #000;
+  top: 10px;
+  left: 0px;
+  transition: all 1.5s;
+}
+.hr-phone-2 {
+  width: 28px;
+  height: 1px;
+  background-color: #000;
+  top: 20px;
+  left: 0px;
+  transition: all 1.5s;
+}
+
 .nav-list-img {
   display: flex;
   width: 28px;
