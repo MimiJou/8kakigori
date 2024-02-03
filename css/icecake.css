@@ -48,6 +48,34 @@
 .years-2024:active {
   transform: scale(0.98);
 }
+.years-2023-cake {
+  width: 240px;
+  height: 128px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: center / cover url("../img/cake-2023.webp") no-repeat;
+}
+.years-2023-cake:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.years-2023-cake:active {
+  transform: scale(0.98);
+}
+.years-2024-cake {
+  width: 240px;
+  height: 128px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: center / cover url("../img/cake-2024.webp") no-repeat;
+}
+.years-2024-cake:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.years-2024-cake:active {
+  transform: scale(0.98);
+}
 @media (max-width: 1080px) {
   .first-options {
     max-width: 1080px;
