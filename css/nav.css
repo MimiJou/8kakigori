@@ -217,7 +217,7 @@ body {
 .nav-item-phone a {
   font-family: Jost;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -353,7 +353,7 @@ body {
   .nav-item-phone a {
     font-family: Jost;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: #000;
     text-decoration: none;
     transition: all 0.5s;

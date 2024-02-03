@@ -45,7 +45,7 @@
   border-width: 0.5px;
   justify-content: center;
   align-items: center;
-  background: center / cover url("../img/底圖.webp") no-repeat;
+  background: center / cover url("../img/底圖.png") no-repeat;
   z-index: 200;
   position: relative;
 }
