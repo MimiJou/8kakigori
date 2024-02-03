@@ -197,7 +197,7 @@ body {
   height: 100%;
   border-right: solid;
   border-width: 0.5px;
-  background-color: #faf9f7;
+  background-color: #ebe8e1;
   z-index: 11000;
   transition: all 0.8s;
 }
