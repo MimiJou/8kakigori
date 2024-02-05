@@ -259,9 +259,23 @@
     background-position: center;
     background-size: cover;
     background-image: url("../img/規則1.webp");
-    animation: image 20s infinite alternate;
-    animation-delay: 2s;
+    animation: image 0s infinite alternate;
+    animation-delay: 0s;
     z-index: 200;
+  }
+  @keyframes space-image {
+    0% {
+      background-image: url("../img/空間-圖1.webp");
+    }
+    0% {
+      background-image: url("../img/空間-圖2.webp");
+    }
+    0% {
+      background-image: url("../img/空間-圖3.webp");
+    }
+    0% {
+      background-image: url("../img/空間-圖4.webp");
+    }
   }
   .space-backround {
     display: none;
