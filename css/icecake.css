@@ -24,7 +24,7 @@
   height: 128px;
   transition: all 0.3s;
   cursor: pointer;
-  background: center / cover url("../img/2023.png") no-repeat;
+  background: center / cover url("../img/2023.webp") no-repeat;
 }
 .years-2023:hover {
   transition: all 0.3s;
@@ -38,7 +38,7 @@
   height: 128px;
   transition: all 0.3s;
   cursor: pointer;
-  background: center / cover url("../img/2024.png") no-repeat;
+  background: center / cover url("../img/2024.webp") no-repeat;
 }
 .years-2024:hover {
   transition: all 0.3s;
